@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="C:\Users\Shubhangi Srivastava\Documents\gitdd\style12.css">
+</head>
+<body>
+ 
+ <div>
+<img src="img34.png" class="img" width="150" height="140"  align='middle' border="1"  ><br/>
+<table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
+<tr>
+
+<br/>
+    <td align='center'> Name:</td>
+    <td><input type='text' name='name' placeholder='Name'></td>
+</tr>
+
+<tr> <td><br /></td> </tr>
+<tr>
+ <td align='center'> Password:</td>
+ <td><input type='password' id='pass' name='password' placeholder='Password' pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+ </td></tr>
+ 
+<tr> <td><br /></td> </tr>
+<tr>
+    <td align='center'> Confirm Password: </td>
+ <td><input type='password' id='cnfpass' name='password' placeholder='Password' required>
+ </td></tr>
+ 
+<tr> <td><br /></td> </tr>
+<tr>
+    <td align='center'>Date Of Birth:</td>
+    <td><input type="date" name="bday" ></td>
+</tr>
+
+<tr> <td><br /></td></tr>
+<tr>
+    <td align='center'>Address:</td>
+    <td><input type='text' name='address' placeholder='Address'></td>
+</tr>
+<tr> <td><br/></td></tr>
+<tr><br/>
+     <td align='center'>Phone:</td>
+    <td><input type="tel" id="phone" name="phone"
+       pattern="[0-9]{15}" placeholder='Phone number'
+       required><br/>
+<span class="note">Enter contact along with the country code</span></td>
+</tr>
+<tr> <td><br/></td> </tr>
+
+<tr>
+    <td align='center'>Email:</td>
+    <td><input type='text' name='name' placeholder='Email'></td>
+</tr>
+<tr> <td><br/></td> </tr>
+
+<tr>
+    <td align='center'>Gender:</td>
+    <td><input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other</td>
+</tr>
+<tr> <td><br/></td> </tr>
+
+<tr>
+    <td align='center'>Languages known:</td>
+    <td><input type="checkbox" name="language" value="Hindi">Hindi
+    <input type="checkbox" name="language" value="English">English 
+    <input type="checkbox" name="language" value="French">French</td>
+</tr>
+<tr> <td><br/></td> </tr>
+
+<tr><td align='center'>Select country:</td>
+         <td><br/>
+             <select id = "myList">
+               <option value = "1">India</option>
+               <option value = "2">America</option>
+               <option value = "3">Nepal</option>
+               <option value = "4">China</option>
+             </select>
+          </p></td>
+</tr>
+
+
+<table border='0' cellpadding='0' cellspacing='0' width='480px' align='center'>
+<tr>
+    <td align='center'><button class="btn success">Signup</button></td>
+</tr>
+</table>
+
+ 
+
+<script type="text/javascript">
+
+function Validate()
+{
+  var password =document.getElementById("pass").value;
+  var confirmpassword=document.getElementById("cnfpass").value;
+    if(password != confirmpassword) {
+     alert("Passwords do not match");
+     return false;
+ }
+return true;
+}
+</script>
+</div>
+</body>
+</html>
+
+
