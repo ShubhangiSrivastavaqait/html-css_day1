@@ -5,11 +5,14 @@ body {
 
 }
 
-header{
+header {
+	
 margin-left:10px;
 color:#191970;
 }
+
 .button {
+	
   background-color: dark blue ; 
   border: none;
   color: black;
@@ -21,13 +24,16 @@ color:#191970;
   cursor: pointer;
   border-radius: 10px;
 }
+
 .button1 {font-size: 15px;}
 
 
 @media screen and (max-height: 450px) {
+	
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
 .card {
   
   box-shadow: 0 4px 8px 0 rgba(0.7,0,0,0);
@@ -37,7 +43,7 @@ color:#191970;
   
 }
 
-.img1{
+.img1 {
  
  margin-left:93px;
  border-color: #8c8c8c; 
@@ -46,24 +52,22 @@ color:#191970;
 
 
 }
-.img2{
+.img2 {
    
    margin-left:23px;
    border-color: #8c8c8c;
-  
-  border-radius: 50%;
-
-
-
+   border-radius: 50%;
 }
-.imgqa{
+
+.imgqa {
+	
  margin-left:95px;
  border-color: #8c8c8c; 
  border-radius:15px 50px 30px;
  border-radius: 30%;
-height:95px;
-width:80px;
-margin-bottom:50px;
+ height:95px;
+ width:80px;
+ margin-bottom:50px;
 
 }
 
@@ -75,16 +79,20 @@ margin-bottom:50px;
   background-color: #F0F8FF;
   
 }
+
 .card:hover {
+	
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .container {
+	
   padding: 3px 20px;
   
 }
 
 footer{
+	
   background-color:#696969;
   padding: 27px;
   text-align: center;
