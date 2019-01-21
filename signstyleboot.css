@@ -1,41 +1,47 @@
 
-body{
-background-color:#778899;;
+body {
+	
+ background-color:#778899;;
 }
-img{
-border-radius: 15px 50px 30px;
-margin-right:180px;
-width:120px;
-height:100px;
-}
-h1{
+
+img {
+	
+ border-radius: 15px 50px 30px;
+ margin-right:180px;
+ width:120px;
+ height:100px;
 
 }
 
 input.txt {
+	
   color: #00008B;
   background-color: #E3F2F7;
   border: 1px inset #00008B;
   width: 200px;
 }
 input.btn {
+  
   color: #00008B;
   background-color: #ADD8E6;
   border: 1px outset #00008B;
 }
 form div {
+  
   clear: left;
   margin: 0;
   padding: 0;
   padding-top: 0.6em;
 }
 form div label {
-  float: left;
+ 
+ float: left;
   width: 40%;
   font: bold 0.9em Arial, Helvetica, sans-serif;
 }
-Submit {
-margin-left:300px;
+ Submit {
+
+ margin-left:300px;
 }
 
    
