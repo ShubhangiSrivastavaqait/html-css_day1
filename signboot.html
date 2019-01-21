@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="/home/qainfotech/Documents/signstyleboot.css">
+<link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<center>
+<h1 align = "left">Sign-Up</h1>
+</center>
+</head>
+<body>
+<img src="img34.png" class="col-sm-4"class="img" width="150" height="140" align="right" ><br/><br/>
+<form method="post" action="">
+  <div class="row">
+
+    <label class ="col-sm-4"for="fullname">Name:</label>
+
+    <input class="col-sm-4" type="text" name="fullname" id="fullname" placeholder='name' />
+  </div>
+
+  <div class="row">
+    <label class="col-sm-4" for="email">Email Address:</label>
+    <input class="col-sm-4" type="text" name="email" id="email" placeholder='email address'  />
+  </div>
+  <div class="row">
+    <label class="col-sm-4" for="password1">Password:</label>
+    <input class="col-sm-4" type='password' id='pass' name='password1' pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder='password' required>
+  </div>
+  <div class="row">
+    <label class="col-sm-4" for="password2">Confirm Password:</label>
+    <input  class="col-sm-4" type="password" name="password2" id="password" placeholder="password"/>
+  </div>
+<div class="row">
+<label class="col-sm-4" for ="date1">Date Of Birth:</label>
+   <input class="col-sm-4" type="date" name='date1' placeholder='Date of birth'> 
+</div>
+  <div class="row">
+    <label class="col-sm-4" for="Country">Country:</label>
+    <select class="col-sm-4" name="Country">
+      <option class="col-sm-4" value="Nepal">Nepal</option>
+      <option class="col-sm-4" value="India">India</option>
+      <option class="col-sm-4" value="China">China</option>
+      <option class="col-sm-4" value="Pakistan">Pakistan</option>
+    </select>
+  </div>
+<br />
+<div class="row">
+<label class="col-sm-4" for ='phone'>Phone:</label>
+    <input class="col-sm-4" type="tel" id="phone" name="phone" placeholder="phone number"
+       pattern="[0-9]{15}" required><br/>
+</div>
+<div class="row">
+    <label class="col-sm-4" for="add">Address:</label>
+    <input class="col-sm-4" type="text" name="add" id="add" placeholder="address"/>
+  </div>
+<br/>
+<div class="row">
+ <label class="col-sm-4"for ='gender'>Gender:</label>
+
+    <input class="col-sm-1" type="radio" name="gender" value="male" text="male">1. Male
+    <input class="col-sm-1" type="radio" name="gender" value="female"> 2.Female
+    <input class="col-sm-1" type="radio" name="gender" value="other">3.Other
+<br />
+    
+  </div>
+<div class="row">
+<label class="col-sm-4" for='language'>Languages known:</label>
+    <input class="col-sm-1" type="checkbox" name="language" value="Hindi">1.Hindi
+    <input class="col-sm-1" type="checkbox" name="language" value="English">2.English 
+    <input class="col-sm-1" type="checkbox" name="language" value="French">3.French
+   
+  </div>
+<div class="row">
+    <label class="col-sm-4" for='image'>Click to upload a profile image:</label>
+    <input class="col-sm-4" type="file" name="image">
+</div><br/>
+<br/>
+<div class="row">
+    <label class="col-sm-4" for='Click to sign-up'>Click to sign up:</label>
+    <input class="col-sm-4" type="button" align="right" name="Submit" class="Submit" value="Sign Up!" class="btn" />
+</div>
+  
+</body>
+</html>
+
