@@ -1,0 +1,25 @@
+input[type=submit]:hover {
+  background-color:#8c8c8c;
+}
+body {
+  background-color: #778899;
+   
+}
+input[type=submit]:hover {
+  background-color:#8c8c8c;
+}
+
+h1{
+  color:black ;
+  margin-left:1px;
+}
+
+.img
+{
+    border-radius: 15px 50px 30px;
+    border-color: #8c8c8c;
+    width:150px;
+    height:140px;
+}
+
+
