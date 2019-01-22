@@ -84,7 +84,19 @@
     <label class="col-sm-4" for='Click to sign-up'>Click to sign up:</label>
     <input class="col-sm-4" type="button" align="right" name="Submit" class="Submit" value="Sign Up!" class="btn" />
 </div>
-  
+  <script type="text/javascript">
+    
+function Validate()
+{
+  var password =document.getElementById("pass").value;
+  var confirmpassword=document.getElementById("cnfpass").value;
+    if(password != confirmpassword) {
+     alert("Passwords do not match");
+     return false;
+ }
+return true;
+}
+    
 </body>
 </html>
 
