@@ -15,7 +15,7 @@
   - home.html
   
 -Their corresponding external stylesheets-
- -style.css
- -style11.css
- -style12.css
+  - style.css
+  - style11.css
+  - style12.css
   
